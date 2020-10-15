@@ -8,10 +8,10 @@ namespace WindowsFormsApp1
     {
         [DataMember]
         public DateTime firstDate { get; set; }
-       
+
         [DataMember]
         public DateTime secondDate { get; set; }
-       
+
         [DataMember]
         public decimal price { get; set; }
     }

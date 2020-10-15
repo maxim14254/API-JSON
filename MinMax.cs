@@ -1,15 +1,14 @@
-﻿using System;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 
 namespace WindowsFormsApp1
 {
     [DataContract]
-     class MinMax
+    class MinMax
     {
         [DataMember]
-        public  decimal min { get; set; }
+        public decimal min { get; set; }
 
         [DataMember]
-        public  decimal max { get; set; }
+        public decimal max { get; set; }
     }
 }

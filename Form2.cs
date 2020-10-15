@@ -1,8 +1,8 @@
-﻿using System;
+﻿using LiveCharts;
+using LiveCharts.Wpf;
+using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using LiveCharts;
-using LiveCharts.Wpf;
 
 namespace WindowsFormsApp1
 {

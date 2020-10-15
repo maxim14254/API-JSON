@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
         {
             using (var file = new FileStream("datajson.json", FileMode.OpenOrCreate))
             {
-                List<DataJson> newDataJson = json.ReadObject(file) as List<DataJson>;
+                List<DataJson> newDataJson = json.ReadObject(file) as List<DataJson>; //десириализация
                 return newDataJson;
             }
         }
