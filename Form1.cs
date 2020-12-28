@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        static DataContractJsonSerializer json = new DataContractJsonSerializer(typeof(List<DataJson>));
+        static DataContractJsonSerializer json = new DataContractJsonSerializer(typeof(List<DataJson>)); //объект класса сериализации
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
 
                 List<DataJson> dataJson = new List<DataJson>(); // массив в котором будут храниться данные
 
-                json = new DataContractJsonSerializer(typeof(List<DataJson>)); // объект класса сериализации
+                //json = new DataContractJsonSerializer(typeof(List<DataJson>)); // объект класса сериализации
 
                 while (!streamReader.EndOfStream)//перебираем данные у загруженного файла (data.txt) построчно
                 {
